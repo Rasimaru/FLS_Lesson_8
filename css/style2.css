@@ -1,0 +1,84 @@
+/* &display=swap */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Taviraj&display=swap);
+
+.layout-container {
+	padding: 180px 0;
+	margin: 0 auto;
+	max-width: 1230px;
+}
+
+.layout-container {
+	background: #fff;
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+	color: #424551;
+	line-height: 1.6;
+	font-weight: 400;
+}
+.layout-container h1 {
+	font-size: 46px;
+	line-height: 1.3;
+	font-weight: 900;
+}
+.layout-container h3 {
+	line-height: 1.5;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+.text-block {
+	margin-left: 840px;
+}
+.title {
+	color: #1e212c;
+	margin-bottom: 40px;
+}
+.list {
+	margin-bottom: 48px;
+}
+.list li {
+	padding: 0 0 0 16px;
+}
+.list li::before {
+	content: "";
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url("../img/icon/check.svg") 0 0 / 16px no-repeat;
+	margin: 0 16px 0 -32px;
+}
+.list li:hover::before {
+	transform: scale(1.4);
+	transition: 1s;
+}
+.button {
+	color: #fff;
+	display: inline-block;
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	font-weight: 700;
+	text-align: center;
+	font-size: 14px;
+	line-height: 3.1;
+	border-radius: 4px;
+	padding: 0 32px;
+	margin-bottom: 50px;
+}
+.maple {
+	font-family: "Taviraj", sans-serif;
+	font-size: 36px;
+	line-height: 1.1;
+	letter-spacing: 0.7px;
+}
+.maple-title {
+	display: inline-block;
+}
+.maple-title::after {
+	content: "";
+	display: block;
+	height: 2px;
+	width: 30%;
+	background: #000000;
+	margin: 5px 0 0 0;
+}
